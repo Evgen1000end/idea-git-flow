@@ -5,10 +5,15 @@ package ru.demkin;
  */
 public class Main {
 
-
-  public static void main(String[] args) {
+  private static void print(){
     System.out.println("Some changes in feature branch");
   }
+
+  public static void main(String[] args) {
+    print();
+  }
+
+
 
   public static void methodInMaster(){
     System.out.println("into master");
